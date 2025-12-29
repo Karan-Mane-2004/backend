@@ -4,9 +4,12 @@
   "description": "Complete backend practice",
   "license": "ISC",
   "author": "karan mane",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.11"
   }
 }
